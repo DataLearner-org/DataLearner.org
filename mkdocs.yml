@@ -2,7 +2,10 @@ site_name: My Docs
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking
@@ -31,6 +34,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+repo_url: https://github.com/DataLearner-org/DataLearner.org
 
 extra:
   consent:
