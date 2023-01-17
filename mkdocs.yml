@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Data Learner
 
 theme:
   name: material
@@ -39,6 +39,16 @@ theme:
 
 repo_url: https://github.com/DataLearner-org/DataLearner.org
 
+nav:
+  - Python Tools:
+    - python/index.md
+    - Venv: 
+      - Venv for project: python/test.md
+      - Venv for projects: python/test.md
+  - Contact:
+    - contact/index.md
+    - Author: contact/author.md
+    - Links: contact/links.md
 extra:
   consent:
     title: Cookie consent
@@ -63,7 +73,7 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/nguyenkhangme/datalearner.org/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://github.com/DataLearner-org/datalearner.org/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
 
 copyright: >
   Copyright &copy; 2023 DataLearner.org –
