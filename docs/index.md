@@ -2,20 +2,27 @@
 comments: true
 ---
 
-# Welcome to MkDocs
+# Welcome to Data Learner
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+=== "Python Tools"
 
-## Commands
+    === "Normal ML Tools"
+        
+        !!! abstract "page list"
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+            - [venv](/python/venv)
+            - [import modules](/python/import_modules)
 
-## Project layout
+=== "Contact"
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    !!! abstract "page list"
+
+        - [Contact](/contact)
+        - [Author](/contact/author)
+        - [Links](/contact/links)
+
+=== "Tags"
+    
+    !!! abstract "page list"
+
+        - [Tags](/tags)
