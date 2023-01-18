@@ -1,4 +1,12 @@
-@font-face {
-    font-family: "Goudy Bookletter 1911";
-    src:"./Goudy_Bookletter_1911/GoudyBookletter1911-Regular.ttf";
+.md-typeset {
+    font-size: 18px;
   }
+  
+.md-nav {
+  font-size: 15px;
+}
+
+.md-tabs__link{
+  font-size: 15px;
+}
+  
