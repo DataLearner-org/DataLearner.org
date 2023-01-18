@@ -4,7 +4,7 @@ theme:
   name: material
   custom_dir: overrides
   font:
-    code: Goudy Bookletter 1911
+    text: Goudy Bookletter 1911
   language: en
   icon:
     repo: fontawesome/brands/github
