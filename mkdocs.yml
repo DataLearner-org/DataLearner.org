@@ -8,6 +8,9 @@ theme:
   language: en
   icon:
     repo: fontawesome/brands/github
+    tag:
+      coding: material/laptop
+      solving_problem: material/brain
   features:
     - navigation.instant
     - navigation.tracking
@@ -43,13 +46,18 @@ nav:
   - Python Tools:
     - index.md
     - Nomarl ML Tools: 
-      - Venv: python/test.md
-      - Import-Module: python/test.md
+      - Venv: python/venv.md
+      - Import-Module: python/import_modules.md
   - Contact:
     - contact/index.md
     - Author: contact/author.md
     - Links: contact/links.md
+  - Tags: tags.md
+
 extra:
+  tags:
+    coding: coding
+    solving problem: solving_problem
   consent:
     title: Cookie consent
     description: >- 
@@ -81,6 +89,8 @@ copyright: >
 
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
 - tables
