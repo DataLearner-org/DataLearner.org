@@ -1,4 +1,4 @@
-# Author
+# Team
 
 ## Meet the author: Nguyen-Khang
 
