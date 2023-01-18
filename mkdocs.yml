@@ -45,7 +45,7 @@ theme:
 repo_url: https://github.com/DataLearner-org/DataLearner.org
 
 nav:
-  - Data Leaner:
+  - Data Learner:
     - index.md
     - Python Tools: 
       - Venv: python/venv.md
