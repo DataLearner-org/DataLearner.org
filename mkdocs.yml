@@ -42,9 +42,9 @@ repo_url: https://github.com/DataLearner-org/DataLearner.org
 nav:
   - Python Tools:
     - index.md
-    - Venv: 
-      - Venv for project: python/test.md
-      - Venv for projects: python/test.md
+    - Nomarl ML Tools: 
+      - Venv: python/test.md
+      - Import-Module: python/test.md
   - Contact:
     - contact/index.md
     - Author: contact/author.md
@@ -53,7 +53,7 @@ extra:
   consent:
     title: Cookie consent
     description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
+      We use cookies to recognize your repeate visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
