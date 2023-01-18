@@ -1,4 +1,4 @@
-## Welcome to Data Learner
+# Welcome to Data Learner
 
 We deliver simple, clear, easy-to-learn content about useful, day-to-day Python, machine learning, and data tools.
 
