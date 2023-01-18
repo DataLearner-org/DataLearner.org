@@ -23,6 +23,9 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -89,10 +92,12 @@ copyright: >
 
 plugins:
   - search
+  - glightbox
   - tags:
       tags_file: tags.md
 
 markdown_extensions:
+- md_in_html
 - tables
 - abbr
 - admonition

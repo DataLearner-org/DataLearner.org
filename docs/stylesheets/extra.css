@@ -1,7 +1,7 @@
 .md-typeset {
     font-size: 18px;
   }
-  
+
 .md-nav {
   font-size: 15px;
 }
@@ -10,3 +10,6 @@
   font-size: 15px;
 }
   
+.md-typeset .admonition, .md-typeset details {
+  font-size: 15px
+}
