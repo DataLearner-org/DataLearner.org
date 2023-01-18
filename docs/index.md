@@ -37,7 +37,7 @@ comments: true
     !!! abstract "page list"
 
         - [Contact](/contact)
-        - [Author](/contact/author)
+        - [Team](/contact/team)
         - [Links](/contact/links)
 
 === "Tags"
