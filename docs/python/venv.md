@@ -11,7 +11,7 @@ tags:
 
     Virtual environment
 
-## I. Venv for project
+## I. Venv for a project
 
 ### Creating a new venv
 
@@ -21,7 +21,7 @@ cd to the project folder and run this:
 python3 -m venv venvname
 ```
 
-or this (you will have to run "pip install virtualenv" first if you have not installed it yet)
+or this (you will have to run `pip install virtualenv` first if you have not installed it yet)
 
 ```zsh
 virtualenv venvname
@@ -108,7 +108,7 @@ conda remove -n venvname --all
 
 !!! note
 
-    Note that we could use venv for multiple projects like the way we set up in "[I. venv for project](#i-venv-for-project)", and this is not smart because we have to remember venv's path, the venv will also not be included in VSCode or Jupyter Notebook's environment list.
+    Note that we could use venv for multiple projects like the way we set up in "[I. venv for a project](#i-venv-for-a-project)", and this is not smart because we have to remember venv's path, the venv will also not be included in VSCode or Jupyter Notebook's environment list.
 
 ## III. Conda/miniforge's base environment
 
