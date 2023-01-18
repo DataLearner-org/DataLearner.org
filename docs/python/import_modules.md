@@ -9,7 +9,7 @@ tags:
 
 ## Problem
 
-- Common: We want to use a different root/source to import modules which are other python files.
+- Common: We want to use a different root/source to import modules ( modules here are just other python files).
 - Some specific cases:
     - Having 2 folders with the same name (in different levels in the file tree). We want to import from the subfolder only.
     - The module we want to import has a long path.
