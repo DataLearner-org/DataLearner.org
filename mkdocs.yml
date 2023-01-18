@@ -45,11 +45,15 @@ theme:
 repo_url: https://github.com/DataLearner-org/DataLearner.org
 
 nav:
-  - Python Tools:
+  - Data Leaner:
     - index.md
-    - Nomarl ML Tools: 
+    - Python Tools: 
       - Venv: python/venv.md
       - Import-Module: python/import_modules.md
+    - Normal ML Tools: 
+      - Nothing here yet: /
+    - Data Tools:
+      - Nothing here yet: /
   - About:
     - about/index.md
     - FAQ: about/FAQ.md
