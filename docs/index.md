@@ -13,6 +13,13 @@ comments: true
             - [venv](/python/venv)
             - [import modules](/python/import_modules)
 
+=== "About"
+
+    !!! abstract "page list"
+
+        - [About](/about)
+        - [FAQ](/about/FAQ)
+
 === "Contact"
 
     !!! abstract "page list"

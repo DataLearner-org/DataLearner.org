@@ -50,6 +50,9 @@ nav:
     - Nomarl ML Tools: 
       - Venv: python/venv.md
       - Import-Module: python/import_modules.md
+  - About:
+    - about/index.md
+    - FAQ: about/FAQ.md
   - Contact:
     - contact/index.md
     - Author: contact/author.md
