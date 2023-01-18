@@ -61,6 +61,7 @@ nav:
     - contact/index.md
     - Team: contact/team.md
     - Links: contact/links.md
+  - Contributing: CONTRIBUTING.md
   - Tags: tags.md
 
 extra:

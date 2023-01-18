@@ -40,6 +40,12 @@ comments: true
         - [Team](/contact/team)
         - [Links](/contact/links)
 
+=== "Contributing"
+    
+    !!! abstract "page list"
+
+        - [Contributing](/Contributing)
+
 === "Tags"
     
     !!! abstract "page list"
