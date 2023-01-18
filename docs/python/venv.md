@@ -130,7 +130,7 @@ cd /opt/homebrew/Caskroom/miniforge/base/bin
 ./conda init zsh
 ```
 
-Exit and reopen the zsh.
+Exit and reopen the terminal.
 
 ### Advanced for Mac users
 
