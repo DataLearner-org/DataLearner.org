@@ -13,7 +13,7 @@ tags:
 
 ## I. Venv for a project
 
-### Creating a new venv
+### 1. Creating a new venv
 
 cd to the project folder and run this:
 
@@ -27,7 +27,7 @@ or this (you will have to run `pip install virtualenv` first if you have not ins
 virtualenv venvname
 ```
 
-### Activating a venv
+### 2. Activating a venv
 
 ```zsh
 . venvname/bin/activate
@@ -39,7 +39,7 @@ or
 source venvname/bin/activate
 ```
 
-### Deactivating an active venv
+### 3. Deactivating an active venv
 
 ```zsh
 cd venvname/bin/
@@ -50,7 +50,7 @@ $source deactivate
 
 We could create a venv for multiple projects with the help of conda/miniforge:
 
-### 0. list all conda discoverable environments
+### 1. list all conda discoverable environments
 
 ```zsh
 conda info --envs
@@ -60,7 +60,7 @@ If you're using VSCode or Jupyter Notebook, you could see a list of available en
 
 ![vs_code_list_venv](images/venv/vs_code_list_venv.png)  
 
-### 1. Creating a new venv
+### 2. Creating a new venv
 
 ```zsh
 conda create -n venvname python=x.y.z
@@ -72,13 +72,13 @@ x.y.z: python version, you could see a list of available python versions by usin
 conda search "^python$"
 ```
 
-### 2. Activating a venv
+### 3. Activating a venv
 
 ```zsh
 conda activate venvname
 ```
 
-### 3. Install a new package
+### 4. Install a new package
 
 ```zsh
 conda install <package>
@@ -90,13 +90,13 @@ For more information see:
 conda install --h
 ```
 
-### 4. Deactivating an active venv
+### 5. Deactivating an active venv
 
 ```zsh
 conda deactivate
 ```
 
-### 5. Deleting a venv
+### 6. Deleting a venv
 
 ```zsh
 conda remove -n venvname --all
@@ -132,7 +132,7 @@ cd /opt/homebrew/Caskroom/miniforge/base/bin
 
 Exit and reopen the terminal.
 
-### Advanced for Mac users
+### 2. Advanced for Mac users
 
 `#!zsh ./conda init zsh` will automatically change the file ~/.zshrc, and help set the PATH environment variable for you.
 
