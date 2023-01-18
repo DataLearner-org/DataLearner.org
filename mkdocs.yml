@@ -41,7 +41,7 @@ repo_url: https://github.com/DataLearner-org/DataLearner.org
 
 nav:
   - Python Tools:
-    - python/index.md
+    - index.md
     - Venv: 
       - Venv for project: python/test.md
       - Venv for projects: python/test.md
