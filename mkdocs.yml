@@ -56,10 +56,10 @@ nav:
       - Nothing here yet: /
   - About:
     - about/index.md
+    - Team: about/team.md
     - FAQ: about/FAQ.md
   - Contact:
     - contact/index.md
-    - Team: contact/team.md
     - Links: contact/links.md
   - Contributing: CONTRIBUTING.md
   - Tags: tags.md

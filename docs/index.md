@@ -30,6 +30,7 @@ comments: true
     !!! abstract "page list"
 
         - [About](/about)
+        - [Team](/about/team)
         - [FAQ](/about/FAQ)
 
 === "Contact"
@@ -37,7 +38,6 @@ comments: true
     !!! abstract "page list"
 
         - [Contact](/contact)
-        - [Team](/contact/team)
         - [Links](/contact/links)
 
 === "Contributing"
