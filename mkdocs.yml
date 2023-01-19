@@ -41,6 +41,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      primary: black
+      accent: white
 
 repo_url: https://github.com/DataLearner-org/DataLearner.org
 
