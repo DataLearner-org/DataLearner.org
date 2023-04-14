@@ -42,7 +42,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
       primary: black
-      accent: white
+      accent: light blue
 
 repo_url: https://github.com/DataLearner-org/DataLearner.org
 
@@ -100,7 +100,8 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - glightbox
   - tags:
       tags_file: tags.md
