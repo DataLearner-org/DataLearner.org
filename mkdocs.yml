@@ -65,6 +65,7 @@ nav:
     - Links: contact/links.md
   - Contributing: CONTRIBUTING.md
   - Tags: tags.md
+  - Site Health: site_health.md
 
 extra:
   tags:
