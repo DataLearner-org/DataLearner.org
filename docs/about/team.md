@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # Team
 
 ## Meet the author: Nguyen-Khang

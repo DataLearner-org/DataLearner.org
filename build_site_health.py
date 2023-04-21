@@ -21,7 +21,12 @@ def gen_site_health_content(
     website_monitoring_dashboard: str
 ) -> str:
     title = 'Site Health'
-    return f'''# {title}
+    return f'''---
+hide:
+  - feedback
+---
+
+# {title}
 
 key |   value
 :---------: | :----------------------------------:

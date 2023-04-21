@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # Welcome to Data Learner
 
 !!! tip "Live"
