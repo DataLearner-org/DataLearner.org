@@ -1,0 +1,8 @@
+# Default owners of the repository
+*       @Khoa-Hoc-Du-Lieu/docs
+
+# Owners for JS, JSX, TS, and TSX files
+*.js    @Khoa-Hoc-Du-Lieu/web
+*.jsx   @Khoa-Hoc-Du-Lieu/web
+*.ts    @Khoa-Hoc-Du-Lieu/web
+*.tsx   @Khoa-Hoc-Du-Lieu/web

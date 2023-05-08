@@ -20,24 +20,20 @@ def gen_site_health_content(
     build_date: str,
     website_monitoring_dashboard: str
 ) -> str:
-    title = 'Site Health'
     return f'''---
-hide:
-  - feedback
+title: Site Health
 ---
-
-# {title}
 
 key |   value
 :---------: | :----------------------------------:
 the last git commit | [{git_commit_short}]({git_commit_link})
 the most recent deploy date | {build_date}
-the public website monitoring dashboard | :material-check: [statuspage.freshping.io]({website_monitoring_dashboard})
+the public website monitoring dashboard | <img src="/img/check.svg" width="16" height="16" />[statuspage.freshping.io]({website_monitoring_dashboard})
 '''
     
 
 if __name__ == "__main__":
-    file_path = './docs/site_health.md'
+    file_path = './src/pages/site-health.mdx'
     
     git_commit_short =  get_git_revision_short_hash()
     git_commit_long = get_git_revision_hash()

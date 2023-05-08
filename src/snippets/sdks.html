@@ -1,0 +1,270 @@
+<script>
+  function showMenu(menu) {
+    document.body.classList.remove('basic', 'begin', 'desktop', 'medium');
+    document.body.classList.add(menu);
+  }
+
+  window.showMenu = showMenu;
+</script>
+<div class="sdks-dropdown flex max-w-lg flex-col rounded-2xl lg:min-w-[768px]">
+  <div class="flex flex-col bg-secondary-800 p-4 lg:flex-row">
+    <div class="flex flex-1 flex-col gap-8 rounded-xl bg-secondary-1000 p-6">
+      <a
+        data-dropdown-sdks-menu="basic"
+        onfocus="document.body.setAttribute('data-sdk-menu', 'basic')"
+        onmouseover="document.body.setAttribute('data-sdk-menu', 'basic')"
+        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
+        href="/khoa-hoc/danh-sach#nền-tảng"
+      >
+        <div class="flex-shrink-0">
+          <img
+            src="/static/landing-page/sdk-icons/resources/book.svg"
+            class="h-6 w-6"
+          />
+        </div>
+        <div class="flex flex-col items-start justify-start gap-1">
+          <div class="text-base font-semibold">Nền tảng</div>
+          <p class="mb-0 text-left text-sm text-text-400">
+            Xây dựng nền tảng vững chắc để bắt đầu
+          </p>
+        </div>
+      </a>
+      <a
+        data-dropdown-sdks-menu="begin"
+        onfocus="document.body.setAttribute('data-sdk-menu', 'begin')"
+        onmouseover="document.body.setAttribute('data-sdk-menu', 'begin')"
+        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
+        href="/khoa-hoc/danh-sach#nhập-môn"
+      >
+        <div class="flex-shrink-0">
+          <img
+            src="/static/landing-page/sdk-icons/resources/cursor-arrow-ripple.svg"
+            class="h-6 w-6"
+          />
+        </div>
+        <div class="flex flex-col items-start justify-start gap-1">
+          <div class="text-base font-semibold">Nhập Môn</div>
+          <p class="mb-0 text-left text-sm text-text-400">
+            Sẵn sàng tìm hiểu về Khoa học Dữ liệu
+          </p>
+        </div>
+      </a>
+      <a
+        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
+        data-dropdown-sdks-menu="medium"
+        href="/khoa-hoc/danh-sach#trung-bình"
+        onfocus="document.body.setAttribute('data-sdk-menu', 'medium')"
+        onmouseover="document.body.setAttribute('data-sdk-menu', 'medium')"
+      >
+        <div class="flex-shrink-0">
+          <img
+            src="/static/landing-page/sdk-icons/resources/plugin.svg"
+            class="h-6 w-6"
+          />
+        </div>
+        <div class="flex flex-col items-start justify-start gap-1">
+          <div class="text-base font-semibold">Trung Bình</div>
+          <p class="mb-0 text-left text-sm text-text-400">Cất cánh!</p>
+        </div>
+      </a>
+    </div>
+    <div class="flex-1 p-6">
+      <div class="flex gap-2" data-dropdown-sdks="basic">
+        <!-- <div class="flex-1">
+          <h3>Toán</h3>
+
+          <ul class="list-none pl-0">
+            <li>
+              <a href="/react-ui-kit" class="sdk-link">
+                <img src="/static/landing-page/sdk-icons/react.png" />
+                React
+              </a>
+            </li>
+            <li>
+              <a href="/angular-ui-kit" class="sdk-link">
+                <img src="/static/landing-page/sdk-icons/angular.png" />
+                Angular
+              </a>
+            </li>
+            <li>
+              <a href="/ui-kit" class="sdk-link">
+                <img src="/static/landing-page/sdk-icons/html.png" />
+                Web Components
+              </a>
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="flex-1">
+          <!-- <h3>Tin</h3> -->
+
+          <ul class="list-none pl-0">
+            <li>
+              <a href="/khoa-hoc/python-cho-nguoi-moi-bat-dau" class="sdk-link">
+                <img src="/static/landing-page/sdk-icons/python.svg" />
+                Python cho người mới bắt đầu
+              </a>
+            </li>
+            <li>
+              <a href="/khoa-hoc/version-control-va-github" class="sdk-link">
+                <img
+                  src="/static/landing-page/sdk-icons/resources/github.svg"
+                />
+                Version control và GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-2" data-dropdown-sdks="medium">
+        <div class="full flex gap-2">
+          <!-- <div class="flex-1">
+          <h3>Toán</h3>
+
+          <ul class="list-none pl-0">
+            <li>
+              <a href="/plugin-sdk" class="sdk-link">
+                <img src="/static/landing-page/sdk-icons/js.png" />
+                Javascript
+              </a>
+            </li>
+          </ul>
+        </div> -->
+          <div class="flex-1">
+            <!-- <h3>Khoa học dữ liệu</h3> -->
+
+            <ul class="list-none pl-0">
+              <li>
+                <a href="/khoa-hoc/truc-quan-hoa-du-lieu" class="sdk-link">
+                  <img
+                    src="/static/landing-page/sdk-icons/presentation-chart.svg"
+                  />
+                  Trực quan hoá dữ liệu
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-2" data-dropdown-sdks="begin">
+        <div class="flex w-full gap-2">
+          <div class="flex-1">
+            <h3>Toán</h3>
+            <ul class="list-none pl-0">
+              <li>
+                <a href="/khoa-hoc/thong-ke-co-ban" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/chart-bar.svg" />
+                  Thống kê cơ bản
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h3>Khoa học Dữ liệu</h3>
+            <ul class="list-none pl-0">
+              <li>
+                <a
+                  href="/khoa-hoc/khoa-hoc-du-lieu-cho-nguoi-moi-bat-dau"
+                  class="sdk-link"
+                >
+                  <img src="/static/landing-page/sdk-icons/table-cells.svg" />
+                  Khoa học dữ liệu cho người mới bắt đầu
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/khoa-hoc/cac-thu-vien-python-thuong-dung-trong-khoa-hoc-du-lieu"
+                  class="sdk-link"
+                >
+                  <img src="/static/landing-page/sdk-icons/arrow-down.svg" />
+                  Các thư viện Python thường dùng trong Khoa học Dữ liệu
+                </a>
+              </li>
+              <!-- <li>
+                <a href="/android-core" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/kotlin.png" />
+                  Android
+                </a>
+              </li>
+              <li>
+                <a href="/ios-core" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/swift.png" />
+                  iOS
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="flex w-full gap-2">
+          <div class="mt-4 w-full rounded-lg bg-secondary-700 p-4">
+            <div class="mb-3 text-xs text-text-400">COMING SOON</div>
+
+            <div class="flex gap-2">
+              <div class="flex-1">
+                <ul class="list-none pl-0">
+                  <li>
+                    <a href="#" class="sdk-link">
+                      <img src="/static/landing-page/sdk-icons/react.png" />
+                      React Native
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sdk-link">
+                      <img src="/static/landing-page/sdk-icons/kotlin.png" />
+                      Android
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sdk-link">
+                      <img src="/static/landing-page/sdk-icons/swift.png" />
+                      iOS
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex-1">
+                <ul class="list-none pl-0">
+                  <li>
+                    <a href="#" class="sdk-link">
+                      <img src="/static/landing-page/sdk-icons/react.png" />
+                      React Native
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sdk-link">
+                      <img src="/static/landing-page/sdk-icons/swift.png" />
+                      iOS
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- <a
+    href="#"
+    class="flex items-center justify-between bg-secondary-1000 p-6 text-current"
+  >
+    <div class="flex flex-col gap-2">
+      <div class="flex items-center gap-2 lg:text-lg">
+        <img
+          src="/static/landing-page/sdk-icons/resources/library-books.png"
+          alt="SDK Overview"
+          class="h-6 w-6"
+        />
+        SDK Overview
+      </div>
+      <div class="text-sm text-text-400">
+        Get up and running on new features and techniques.
+      </div>
+    </div>
+    <div>&rarr;</div>
+  </a> -->
+</div>
